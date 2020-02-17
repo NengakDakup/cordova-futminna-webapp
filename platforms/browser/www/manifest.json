@@ -1,11 +1,18 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
+  "name": "Futminna",
+  "short_name": "Futminna",
   "version": "io.cordova.hellocordova",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "An app for quickly navigating to important pages on the Futminna's website",
   "author": "Apache Cordova Team",
-  "icons": [],
+  "icons": [
+    {
+      "src": "www/logo.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "orientation": "any",
   "start_url": "index.html"
 }
